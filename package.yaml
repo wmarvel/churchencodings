@@ -1,0 +1,20 @@
+name:                churchencodings
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/wmarvel/churchencodings#readme
+license:             BSD3
+author:              Wendall A. Marvel
+maintainer:          wmarvel@yahoo.com
+copyright:           Copyright (C) 2017 Wendall A. Marvel
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  churchencodings:
+    source-dirs:      src
+    main:             Main.hs
